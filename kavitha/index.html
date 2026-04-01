@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kavitha Textiles — Premium Clothing Store in Sivakasi | Sarees, Men's & Kids Wear</title>
+  <meta name="description" content="Discover beautiful clothing collections at Kavitha Textiles, Sivakasi's trusted family fashion destination. Shop sarees, men's wear, kids clothing, and festive collections.">
+  <meta name="keywords" content="Kavitha Textiles, Sivakasi, textile store, sarees, men's clothing, kids wear, wedding sarees, festival clothing, Indian fashion">
+  <meta name="author" content="Kavitha Textiles">
+  <meta property="og:title" content="Kavitha Textiles — Premium Clothing Store in Sivakasi">
+  <meta property="og:description" content="Sivakasi's trusted family fashion destination with wide clothing collections for women, men, and kids.">
+  <meta property="og:type" content="website">
+  
+  <!-- Preconnect for performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Favicon (inline SVG) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🪷</text></svg>">
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════
+       LOADING SCREEN
+       ═══════════════════════════════════════════ -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-logo">KAVITHA</div>
+    <div class="loading-tamil">கவிதா ஜவுளி</div>
+    <div class="loading-bar">
+      <div class="loading-bar-inner"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       CUSTOM CURSOR (Desktop)
+       ═══════════════════════════════════════════ -->
+  <div class="custom-cursor" id="customCursor"></div>
+
+  <!-- ═══════════════════════════════════════════
+       NAVIGATION
+       ═══════════════════════════════════════════ -->
+  <nav class="navbar transparent" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo" id="navLogo">
+        <span class="nav-logo-main">KAVITHA TEXTILES</span>
+        <span class="nav-logo-tamil">கவிதா ஜவுளி</span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#collections">Collections</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#experience">Our Store</a>
+        <a href="#location">Location</a>
+        <a href="#location" class="nav-cta">Visit Store</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════════════════
+       HERO SECTION
+       ═══════════════════════════════════════════ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="images/hero-bg.png" alt="Elegant Indian woman in a beautiful silk saree at Kavitha Textiles" id="heroBgImage">
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-texture"></div>
+    
+    <div class="hero-content">
+      <div class="hero-badge">
+        <div class="badge-dot"></div>
+        <span>Sivakasi's Trusted Textile Destination</span>
+      </div>
+      <h1 class="hero-title">
+        Where Tradition Meets<br><span class="highlight">Elegant Fashion</span>
+      </h1>
+      <p class="hero-subtitle">
+        Discover beautiful clothing collections for women, men, and kids at Sivakasi's trusted textile destination.
+      </p>
+      <div class="hero-buttons">
+        <a href="#collections" class="btn btn-primary" id="heroExplorBtn">
+          <span>Explore Collections</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#location" class="btn btn-outline" id="heroVisitBtn">
+          <span>Visit Our Store</span>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- Parallax Divider -->
+  <div class="parallax-divider">
+    <div class="divider-pattern">
+      <div class="divider-line"></div>
+      <div class="divider-ornament"></div>
+      <div class="divider-line"></div>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════════════════
+       COLLECTIONS SECTION
+       ═══════════════════════════════════════════ -->
+  <section class="collections-section section-padding" id="collections">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-badge reveal">
+          <span>Our Collections</span>
+        </div>
+        <h2 class="section-title reveal">Explore Our Fashion Collections</h2>
+        <p class="section-subtitle reveal">
+          Styles for every moment, from everyday elegance to festive celebrations.
+        </p>
+      </div>
+
+      <div class="collections-grid">
+        <!-- Women's Collection — Featured -->
+        <div class="collection-card reveal stagger-1" id="collectionWomen">
+          <div class="collection-card-image">
+            <img src="images/womens-collection.png" alt="Women's saree and dress collection at Kavitha Textiles" loading="lazy">
+            <div class="collection-card-ripple"></div>
+          </div>
+          <div class="collection-card-overlay">
+            <span class="collection-card-tag">Featured Collection</span>
+            <h3 class="collection-card-title">Women's Collection</h3>
+            <p class="collection-card-desc">Elegant styles crafted for every celebration — sarees, designer sets, salwar suits, and indo-western dresses.</p>
+            <a href="#" class="collection-card-btn">
+              View Women's Collection
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Men's Collection -->
+        <div class="collection-card reveal stagger-2" id="collectionMen">
+          <div class="collection-card-image">
+            <img src="images/mens-collection.png" alt="Men's shirt and kurta collection at Kavitha Textiles" loading="lazy">
+            <div class="collection-card-ripple"></div>
+          </div>
+          <div class="collection-card-overlay">
+            <span class="collection-card-tag">Men's Fashion</span>
+            <h3 class="collection-card-title">Men's Collection</h3>
+            <p class="collection-card-desc">Timeless fashion for everyday comfort — shirts, casuals, and traditional wear.</p>
+            <a href="#" class="collection-card-btn">
+              View Men's Collection
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Kids Collection -->
+        <div class="collection-card reveal stagger-3" id="collectionKids">
+          <div class="collection-card-image">
+            <img src="https://images.unsplash.com/photo-1622290291468-a28f7a7dc6a8?w=800&q=80" alt="Kids clothing collection at Kavitha Textiles" loading="lazy">
+            <div class="collection-card-ripple"></div>
+          </div>
+          <div class="collection-card-overlay">
+            <span class="collection-card-tag">Kids Fashion</span>
+            <h3 class="collection-card-title">Kids Collection</h3>
+            <p class="collection-card-desc">Cute and stylish outfits for kids — boys clothing, girls dresses, and party wear.</p>
+            <a href="#" class="collection-card-btn">
+              View Kids Collection
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Festival Collection -->
+        <div class="collection-card reveal stagger-4" id="collectionFestival">
+          <div class="collection-card-image">
+            <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?w=800&q=80" alt="Festival and wedding wear collection at Kavitha Textiles" loading="lazy">
+            <div class="collection-card-ripple"></div>
+          </div>
+          <div class="collection-card-overlay">
+            <span class="collection-card-tag">Festive Special</span>
+            <h3 class="collection-card-title">Festival Collection</h3>
+            <p class="collection-card-desc">Celebrate every special moment in style — silk sarees, wedding wear, and festive dresses.</p>
+            <a href="#" class="collection-card-btn">
+              Explore Festive Wear
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       WHY CHOOSE US
+       ═══════════════════════════════════════════ -->
+  <section class="why-section section-padding" id="why-us">
+    <div class="container">
+      <div class="text-center">
+        <div class="section-badge reveal">
+          <span>Why Choose Us</span>
+        </div>
+        <h2 class="section-title reveal">The Kavitha Textiles Experience</h2>
+        <p class="section-subtitle reveal">
+          We're more than a store — we're your family's trusted fashion destination.
+        </p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal stagger-1" id="whyVariety">
+          <div class="why-card-icon">👗</div>
+          <h3 class="why-card-title">Wide Variety</h3>
+          <p class="why-card-text">Clothing for women, men, and kids — from traditional elegance to modern trends.</p>
+        </div>
+        <div class="why-card reveal stagger-2" id="whyFamily">
+          <div class="why-card-icon">👨‍👩‍👧‍👦</div>
+          <h3 class="why-card-title">Family Destination</h3>
+          <p class="why-card-text">Perfect place for family fashion shopping with collections for everyone.</p>
+        </div>
+        <div class="why-card reveal stagger-3" id="whyComfort">
+          <div class="why-card-icon">✨</div>
+          <h3 class="why-card-title">Comfortable Experience</h3>
+          <p class="why-card-text">Spacious showroom with pleasant ambience for a relaxed shopping experience.</p>
+        </div>
+        <div class="why-card reveal stagger-4" id="whyPrice">
+          <div class="why-card-icon">💎</div>
+          <h3 class="why-card-title">Affordable to Premium</h3>
+          <p class="why-card-text">Something for every budget — find quality fashion at every price point.</p>
+        </div>
+        <div class="why-card reveal stagger-5" id="whyTrust">
+          <div class="why-card-icon">🏆</div>
+          <h3 class="why-card-title">Trusted by Thousands</h3>
+          <p class="why-card-text">Loved by 1,000+ customers who trust us for quality and variety.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       CUSTOMER REVIEWS
+       ═══════════════════════════════════════════ -->
+  <section class="reviews-section section-padding" id="reviews">
+    <div class="container">
+      <div class="reviews-header text-center">
+        <div class="section-badge reveal">
+          <span>Customer Love</span>
+        </div>
+        <h2 class="section-title reveal">What Our Customers Say</h2>
+        <p class="section-subtitle reveal">
+          Real experiences from our valued customers who make us Sivakasi's favorite.
+        </p>
+        <div class="rating-badge reveal">
+          <div class="rating-badge-score">3.8</div>
+          <div class="rating-badge-info">
+            <div class="rating-badge-stars">★★★★☆</div>
+            <div class="rating-badge-count">from 1,098+ customers</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card reveal stagger-1" id="review1">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Quality, ambience and price are best here. Big shop in Sivakasi. They have a wide range of collections for the whole family."</p>
+          <div class="review-author">
+            <div class="review-avatar">R</div>
+            <div>
+              <div class="review-author-name">Ramesh K.</div>
+              <div class="review-author-label">Verified Customer</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal stagger-2" id="review2">
+          <div class="review-stars">★★★★★</div>
+          <p class="review-text">"Great collection for kids with many modern styles. My children loved their outfit choices. The staff was helpful and patient."</p>
+          <div class="review-author">
+            <div class="review-avatar">P</div>
+            <div>
+              <div class="review-author-name">Priya S.</div>
+              <div class="review-author-label">Verified Customer</div>
+            </div>
+          </div>
+        </div>
+        <div class="review-card reveal stagger-3" id="review3">
+          <div class="review-stars">★★★★☆</div>
+          <p class="review-text">"Good place to shop dresses for the whole family. Spacious store with comfortable ambience. Parking is also available."</p>
+          <div class="review-author">
+            <div class="review-avatar">M</div>
+            <div>
+              <div class="review-author-name">Muthu V.</div>
+              <div class="review-author-label">Verified Customer</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       STORE EXPERIENCE
+       ═══════════════════════════════════════════ -->
+  <section class="experience-section section-padding" id="experience">
+    <div class="container">
+      <div class="experience-grid">
+        <div class="experience-gallery">
+          <div class="gallery-item reveal-left stagger-1">
+            <img src="https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=600&q=80" alt="Organized clothing sections at Kavitha Textiles showroom" loading="lazy">
+          </div>
+          <div class="gallery-item reveal-left stagger-2">
+            <img src="https://images.unsplash.com/photo-1558618666-fcd25c85f82e?w=600&q=80" alt="Spacious showroom interior at Kavitha Textiles" loading="lazy">
+          </div>
+          <div class="gallery-item reveal-left stagger-3">
+            <img src="https://images.unsplash.com/photo-1604176354204-9268737828e4?w=600&q=80" alt="Family shopping experience at Kavitha Textiles" loading="lazy">
+          </div>
+        </div>
+        <div class="experience-content reveal-right">
+          <div class="section-badge">
+            <span>Our Showroom</span>
+          </div>
+          <h2 class="section-title">A Better Shopping Experience for Your Family</h2>
+          <p class="section-subtitle">
+            Step into Kavitha Textiles and discover a spacious, well-organized showroom designed for comfortable family shopping. Our beautifully arranged collections make finding the perfect outfit a joyful experience.
+          </p>
+          <div class="experience-features">
+            <div class="experience-feature" id="featureOrganized">
+              <div class="experience-feature-icon">🏬</div>
+              <span class="experience-feature-text">Well-organized clothing sections</span>
+            </div>
+            <div class="experience-feature" id="featureSpacious">
+              <div class="experience-feature-icon">🌟</div>
+              <span class="experience-feature-text">Spacious & comfortable showroom</span>
+            </div>
+            <div class="experience-feature" id="featureParking">
+              <div class="experience-feature-icon">🚗</div>
+              <span class="experience-feature-text">Free car parking available</span>
+            </div>
+            <div class="experience-feature" id="featureFamily">
+              <div class="experience-feature-icon">❤️</div>
+              <span class="experience-feature-text">Family-friendly shopping environment</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       LOCATION SECTION
+       ═══════════════════════════════════════════ -->
+  <section class="location-section section-padding" id="location">
+    <div class="container">
+      <div class="text-center" style="margin-bottom: 60px;">
+        <div class="section-badge reveal">
+          <span>Find Us</span>
+        </div>
+        <h2 class="section-title reveal">Visit Our Store</h2>
+        <p class="section-subtitle reveal">
+          Located in the heart of Sivakasi, we're easy to find and always ready to welcome you.
+        </p>
+      </div>
+
+      <div class="location-grid">
+        <div class="location-map reveal-left" id="locationMap">
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.098!2d77.798!3d9.449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zOcKwMjYnNTYuNCJOIDc3wrA0Nyc1Mi44IkU!5e0!3m2!1sen!2sin!4v1700000000000"
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Kavitha Textiles Location Map">
+          </iframe>
+        </div>
+        <div class="location-info reveal-right">
+          <div class="location-address">
+            <div class="location-address-icon">📍</div>
+            <div class="location-address-text">
+              <h4>Our Address</h4>
+              <p>
+                Kavitha Textiles<br>
+                154, NRKR Rd, Palaniandavar Colony,<br>
+                Kaliappa Nagar, Sivakasi,<br>
+                Tamil Nadu 626123
+              </p>
+            </div>
+          </div>
+          <div class="location-hours">
+            <div class="location-hours-icon">🕐</div>
+            <div class="location-hours-text">
+              <h4>Store Hours</h4>
+              <p>
+                Monday – Saturday: 9:00 AM – 9:00 PM<br>
+                Sunday: 10:00 AM – 8:00 PM
+              </p>
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/search/Kavitha+Textiles+Sivakasi" target="_blank" rel="noopener" class="btn btn-dark" id="getDirectionsBtn">
+            <span>Get Directions</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FINAL CTA
+       ═══════════════════════════════════════════ -->
+  <section class="cta-section" id="cta">
+    <div class="container">
+      <div class="cta-content reveal-scale">
+        <div class="cta-ornament">
+          <div class="cta-ornament-line"></div>
+          <div class="cta-ornament-diamond"></div>
+          <div class="cta-ornament-line"></div>
+        </div>
+        <h2 class="cta-title">Find Your Perfect Outfit Today</h2>
+        <p class="cta-text">
+          Explore beautiful collections for the whole family at Kavitha Textiles. 
+          From everyday elegance to festive celebrations, discover fashion that tells your story.
+        </p>
+        <div class="cta-buttons">
+          <a href="#collections" class="btn btn-gold" id="ctaExploreBtn">
+            <span>Explore Collections</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="https://www.google.com/maps/search/Kavitha+Textiles+Sivakasi" target="_blank" rel="noopener" class="btn btn-outline" id="ctaVisitBtn">
+            <span>Visit Our Store</span>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+       ═══════════════════════════════════════════ -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+          <div class="nav-logo">
+            <span class="nav-logo-main">KAVITHA TEXTILES</span>
+            <span class="nav-logo-tamil">கவிதா ஜவுளி</span>
+          </div>
+          <p class="footer-brand-text">
+            Serving families in Sivakasi with trusted fashion collections. Your one-stop destination for clothing that celebrates every moment of life.
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook" id="socialFacebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" id="socialInstagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="m16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" aria-label="WhatsApp" id="socialWhatsapp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z"/></svg>
+            </a>
+            <a href="#" aria-label="YouTube" id="socialYoutube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#collections">Collections</a></li>
+            <li><a href="#why-us">Why Us</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#experience">Our Store</a></li>
+          </ul>
+        </div>
+
+        <!-- Collections -->
+        <div class="footer-col">
+          <h4>Collections</h4>
+          <ul>
+            <li><a href="#collections">Women's Wear</a></li>
+            <li><a href="#collections">Men's Wear</a></li>
+            <li><a href="#collections">Kids Wear</a></li>
+            <li><a href="#collections">Festival Wear</a></li>
+            <li><a href="#collections">Wedding Wear</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <div class="footer-contact-item">
+            <div class="footer-contact-item-icon">📍</div>
+            <div class="footer-contact-item-text">
+              154, NRKR Rd, Palaniandavar Colony, Kaliappa Nagar, Sivakasi, Tamil Nadu 626123
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <div class="footer-contact-item-icon">🕐</div>
+            <div class="footer-contact-item-text">
+              Mon–Sat: 9:00 AM – 9:00 PM<br>
+              Sunday: 10:00 AM – 8:00 PM
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copyright">
+          © 2024 Kavitha Textiles. All rights reserved. Made with ❤️ in Sivakasi.
+        </p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Kavitha Textiles",
+    "alternateName": "கவிதா ஜவுளி",
+    "description": "Sivakasi's trusted family textile showroom offering clothing collections for women, men, and kids.",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "154, NRKR Rd, Palaniandavar Colony, Kaliappa Nagar",
+      "addressLocality": "Sivakasi",
+      "addressRegion": "Tamil Nadu",
+      "postalCode": "626123",
+      "addressCountry": "IN"
+    },
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "3.8",
+      "reviewCount": "1098"
+    },
+    "priceRange": "₹₹ - ₹₹₹",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+        "opens": "09:00",
+        "closes": "21:00"
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Sunday",
+        "opens": "10:00",
+        "closes": "20:00"
+      }
+    ]
+  }
+  </script>
+</body>
+</html>
